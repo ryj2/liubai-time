@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>留白时间·公共情绪减压站</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div id="content-wrapper">
+            <h1>留白时间</h1>
+            <p>在这里写下你想要释放的情绪或想法，然后让它们随风而去。</p>
+            <textarea id="paper" placeholder="写下你的想法..."></textarea>
+            <div id="button-container">
+                <button id="tear-btn">撕掉这张纸</button>
+            </div>
+        </div>
+        <div id="final-message"></div>
+        <div id="transition-message" class="hidden"></div>
+        <div id="breathing-overlay" class="hidden">
+            <div id="strikethrough-text"></div>
+            <p id="breathing-text"></p>
+        </div>
+    </div>
+    <footer>
+        <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://www.netlify.com/assets/badges/netlify-badge-color-accent.svg" alt="Deploys by Netlify" />
+        </a>
+        <a href="CODE_OF_CONDUCT.md" target="_blank">行为准则</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

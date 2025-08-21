@@ -1,0 +1,21 @@
+{
+  "name": "留白时间",
+  "short_name": "留白",
+  "start_url": ".",
+  "display": "fullscreen",
+  "background_color": "#FDFBF7",
+  "theme_color": "#FDFBF7",
+  "description": "一个帮你清空大脑的极简网页。",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
